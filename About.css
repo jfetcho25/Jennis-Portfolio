@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*BG*/
+body {
+	background-color: aliceblue;
+}
+
+/*Image*/
+
+img {
+	float: left;
+	margin-left: 20%;
+	margin-right: 20px;
+}
+
+
+/*Text*/
+h1 {
+	font-family: Josefin Sans, san-serif;
+	color: black;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: Josefin Sans, san-serif;
+	color: black;
+	text-align: left;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 40px;
+	margin-right: 10%;
+}
+
+/*Nav*/
+nav {
+	font-family: Josefin Sans, san-serif;
+	text-align: center;
+	font-weight: 100;
+	color: black;
+	margin-bottom: 25px;
+}
+
+nav>a{
+	color: black;
+	text-decoration: none;
+	font-size: 1em;
+	margin-right: 20px;
+}
+
+nav>a:hover {
+	text-decoration: underline;
+}
+
+.active {
+	font-weight: 400;
+	color: cornflowerblue;
+}
+
+/*Form*/
+
+h3 {
+	font-family: Josefin Sans, san-serif;
+	color: black;
+}
+
+form {
+	font-family: Josefin Sans, san-serif;
+	color: black;
+}
+
+#email {
+	border: none;
+}
+
+#tellMore {
+	border: none;
+}
+
+textarea {
+	margin-top: 5px;
+	height: 100px;
+	width: 50%;
+}
+
+label {
+	margin-right: 20px;
+}
+
+div#form {
+	display: grid;
+}
+
+/*Table*/
+
+table {
+	font-family: Josefin Sans, san-serif;
+	color: black;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+caption {
+	margin-bottom: 20px;
+	font-size: 2em;
+}
+
+th {
+	background-color: cornflowerblue;
+	height: 30px;
+	color: white;
+	text-align: left;
+	text-indent: 10px;
+}
+
+
+/*Footer*/
+footer {
+	text-align: center;
+}
+
+footer>a {
+	font-family: Josefin Sans, san-serif;
+	color: cadetblue;
+	text-decoration: none;
+}
+
+footer:hover {
+	text-decoration: underline;
+}
